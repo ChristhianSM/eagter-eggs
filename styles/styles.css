@@ -1,0 +1,36 @@
+.show  {
+  visibility: hidden;
+}
+.countdown {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 1rem;
+  text-align: center;
+  position: relative;
+  z-index: 3;
+}
+.countdown__separator {
+  padding: 0 0.8rem;
+  color: rgba(0,0,0,.6);
+  font-family: roboto;
+  font-size: 4em;
+  font-weight: 700;
+  text-align: center;
+}
+.countdown__number-block {
+  width: 75px;
+  height: 85px;
+  margin-bottom: 0.8rem;
+  background: rgba(0,0,0,.9);
+  border-radius: 8px;
+  color: hsla(0,0%,100%,.87);
+  font-family: var(--roboto-condensed);
+  font-size: 4em;
+  line-height: 1.4;
+  font-weight: 700;
+  text-align: center;
+}
+.countdown__number-label{
+  font-family: Fixture-Bold;
+  text-transform: uppercase;
+}
